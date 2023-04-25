@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url("https://i.pinimg.com/originals/67/df/54/67df54608b72b5dafd06c5ddf0ad3f67.gif");
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: rgb(221, 134, 52);
+    font-family: helvetica;
+    
+}
+nav{
+    background-color: rgba(247, 244, 244, 0);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: coral;
+}
+    
